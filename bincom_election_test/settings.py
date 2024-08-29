@@ -88,7 +88,7 @@ DATABASES = {
     }
 }
 
-database_url = os.getenv("DATABASE_URL")
+database_url = 'postgresql://bincom_election_test_user:XdknzHc0gexoZA0b4myQzwR1PnmUFnHd@dpg-cr7tiertq21c739fs0m0-a.oregon-postgres.render.com/bincom_election_test'
 DATABASES['default'] = dj_database_url.parse(database_url)
 
 # Password validation
